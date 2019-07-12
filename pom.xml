@@ -1,0 +1,98 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.axway</groupId>
+	<artifactId>apigateway-policy-test</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>apigateway-policy-test</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vorder</groupId>
+			<artifactId>testClient</artifactId>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\testClient.jar</systemPath>
+			<scope>system</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>server</artifactId>
+			<scope>system</scope>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\server.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>jce-core</artifactId>
+			<scope>system</scope>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\jce\jce-core-7.6.2.2-3.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>ossljce</artifactId>
+			<scope>system</scope>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\jce\ossljce-7.6.2.2-3.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>iaik_jce</artifactId>
+			<scope>system</scope>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\jce\iaik_jce-3.17.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>jce-iaik-adapter</artifactId>
+			<scope>system</scope>
+			<version>7.6.2</version>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\jce\jce-iaik-adapter-7.6.2.2-3.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>com.vordel</groupId>
+			<artifactId>vordel-trace</artifactId>
+			<systemPath>D:\Axway\Axway-7.6.2-sp2\apigateway\system\lib\plugins\vordel-trace-7.6.2.2-3.jar</systemPath>
+			<scope>system</scope>
+			<version>7.6.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.jersey.core</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>2.22</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-multipart -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-multipart</artifactId>
+			<version>2.22</version>
+		</dependency>
+
+
+
+
+
+	</dependencies>
+</project>
